@@ -1,0 +1,7 @@
+/* Barra de menu */
+nav{display: flex;justify-content: space-around;padding: 15px;}
+nav a{color: #469cc4!important; text-decoration: none;font-size:1.5rem}
+nav a:hover{font-size:1.4rem;color:#006A1F;}
+
+/* Barra de menu y cuerpo */
+nav,.cuerpo{max-width: 65vw;border:1px solid #fff;margin: 5px auto;padding: 25px;background-color: #fff;}

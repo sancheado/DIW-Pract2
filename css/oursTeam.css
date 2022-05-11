@@ -1,0 +1,16 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+body{background-color: #000; color:aliceblue}
+
+/* Estilo para Nuestro Equipo */
+ul li .cajas{border:.2px solid #ebebeb;width: 35%; margin: auto;}
+ul li .cajas img{width: 100%;padding: 15px;}
+ul li .cajas p{text-align: center; text-decoration: underline #000;}
+
+.aboutUs{color:#000!important;}
+.aboutUs .insideAbout{display:flex;justify-content: center;}
+.aboutUs .insideAbout img{padding: 15px;margin-left:auto;margin-right: auto;width: 65%;}
+.aboutUs h3{text-decoration: underline #000;text-align: center;padding: 7px;text-transform: uppercase;}
+
+.txtCabeza{color:#000!important;}
+.txtCabeza p{padding:5px; margin:15px;text-align: justify;}
+.txtCabeza h3{padding:5px; margin:8px;text-align: justify;}

@@ -1,0 +1,26 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+body{background-color: #000; color:aliceblue}
+
+
+.aboutUs{color:#000!important;}
+.aboutUs .insideAbout{display:flex;justify-content: center;}
+.aboutUs .insideAbout img{padding: 15px;margin-left:auto;margin-right: auto;width: 65%;}
+.aboutUs h3{text-decoration: underline #000;text-align: center;padding: 7px;text-transform: uppercase;}
+
+.txtCabeza{color:#000!important;  display: grid;}
+.txtCabeza p{padding:5px; margin:15px;text-align: center;}
+.txtCabeza h3{padding:5px; margin:8px;text-align: justify;}
+
+#contactForm{display:grid;grid-template-columns: (2,1fr);grid-gap:10px;
+    padding: 15px;width: 65%;margin:15px auto 15px auto;text-align: center;}
+.form-group{padding: 20px;margin:auto;width: 100%;}
+.one{grid-column: 1 / 2;grid-row: 1;}
+.two{grid-column: 2 / 2;grid-row: 1;}
+.three{grid-column: 1 / 2;grid-row: 2;}
+.four{grid-column: 2 / 2;grid-row: 2;}
+.five{grid-column: 1 / span 2;grid-row: 3;}
+.six{grid-column: 1 / span 2;grid-row: 4;}
+
+
+.form-group input{padding: 10px;margin:auto;width: 45%;}
+.form-group textarea{padding: 10px;margin:auto;width: 100%;}
